@@ -1,0 +1,157 @@
+/* Import Homenaje font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Homenaje&display=swap');
+
+body {
+  font-family: 'Homenaje', sans-serif;
+  background-color: #FFFFFA;
+  color: #000;
+}
+
+header {
+  background: url('../images/hero.jpg') no-repeat center center/cover;
+  background-size: cover;
+  color: white;
+  min-height: 60vh;
+  padding-top: 70px;
+}
+
+#about img {
+  margin-top: 15px;
+}
+
+.bg-color {
+  background-color:  #BEB7A4;
+}
+
+.card_text {
+  text-decoration: none;
+  color: #000;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.navbar {
+  background-color: #000000;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  height: 100px; /* Increased navbar height */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  font-size: 20px; /* Larger font size */
+  font-weight: bold;
+  font-family: 'Homenaje', sans-serif;
+  transition: all 0.3s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #f4f4f4;
+  transform: scale(1.1);
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center; /* Vertically centers the navbar items */
+}
+
+.navbar-nav .nav-item:first-child {
+  margin-right: auto;
+}
+
+.navbar-nav .nav-item {
+  margin-left: 20px;
+}
+
+.font-regular {
+  font-family: 'Homenaje', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-bold {
+  font-family: 'Homenaje', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-regular-italic {
+  font-family: 'Homenaje', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.nav-font-light {
+  font-family: 'Homenaje', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.nav-font-medium {
+  font-family: 'Homenaje', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.nav-font-semibold {
+  font-family: 'Homenaje', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.nav-font--bold {
+  font-family: 'Homenaje', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.card {
+  background-color: #FFFFFA;
+  color: #000;
+  border: 2px solid #000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+
+p {
+  font-size: 25px; 
+  line-height: 1.6;
+}
+
+li{
+    font-size: 25px; 
+    
+}
+
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .navbar-nav .nav-item {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+}
+
