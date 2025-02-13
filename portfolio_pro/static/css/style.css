@@ -13,7 +13,6 @@ header {
   background-size: cover;
   color: white;
   min-height: 60vh;
-  padding-top: 70px;
 }
 
 #about img {
@@ -71,6 +70,7 @@ header {
   justify-content: space-between;
   width: 100%;
   align-items: center; 
+  background-color: #000;
 }
 
 .navbar-nav .nav-item:first-child {
